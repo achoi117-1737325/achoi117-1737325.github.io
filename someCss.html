@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>someCSS assignment</title>
+        <h1>Level 1:Newbie</h1>
+        <h3>Two paragraphs in different font. </h3>
+       <style>
+           P.a{
+               font-family:"Arial, Helvetica, sans-serif;"
+           }
+            P.b {font-family:'Courier New', Courier, monospace
+            }
+       </style>
+    </head>
+    <body>
+        <p class="a">This is a paragraph in the arial font for someCSS assignment.</p>
+        <p class="b">This is a paragaraph in the courier new font for someCSS assignment.</p>
+    <h3>Two pictures that were originally different sizes now 50px by 50px</h3>
+        <img src="https://cdn.shopify.com/s/files/1/0328/4261/products/CLK02_Scribble_Clock_2_grande.jpg?v=1521229520" style="width:50px; height:50px; margin 5px">
+        <img src="https://cdn.shopify.com/s/files/1/0328/4261/products/CLK06_Dream_Clock_medium.jpg?v=1580932437" style="width: 50px; height: 50px; margin: 5px">
+    <head>
+        <style>
+        html {
+          scroll-behavior: smooth;
+        }
+        
+        #section1 {
+          height: 600px;
+          background-color: pink;
+        }
+        
+        #section2 {
+          height: 600px;
+          background-color: yellow;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <h3>scrolling (unique CSS command not discussed in workshop</h3>
+        
+        <div class="main" id="section1">
+          <h2>scrolling place number one</h2>
+          <p>this link uses the "smooth" scrolling effect.</p>
+          <a href="#section2">Click Smooth Scroll to Section 2 Below</a>
+          
+        </div>
+        
+        <div class="main" id="section2">
+          <h2>Section 2</h2>
+          <a href="#section1">Click to Smooth Scroll to Section 1 Above</a>
+        </div>
+
+    <h1>Level 2: Apprentice</h1>
+    <h3>Text that is centered on a photo</h3>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        .container {
+          position: relative;
+          text-align: center;
+          color: white;
+        }
+        
+        .bottom-left {
+          position: absolute;
+          bottom: 8px;
+          left: 16px;
+        }
+        
+        .top-left {
+          position: absolute;
+          top: 8px;
+          left: 16px;
+        }
+        
+        .top-right {
+          position: absolute;
+          top: 8px;
+          right: 16px;
+        }
+        
+        .bottom-right {
+          position: absolute;
+          bottom: 8px;
+          right: 16px;
+        }
+        
+        .centered {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        </style>
+        </head>
+        <body>
+        
+        <div class="container">
+          <img src="https://cdn.shopify.com/s/files/1/0328/4261/products/CLK02_Scribble_Clock_3_grande.jpg?v=1521229520" alt="Snow" style="width:10%;">
+          <div class="bottom-left"></div>
+          <div class="top-left"></div>
+          <div class="top-right"></div>
+          <div class="bottom-right"></div>
+          <div class="centered">CENTERED TEXT</div>
+        </div>
+    <h3>Photo with 20 px margins on each side</h3>
+    <head>
+        <style>
+        img {
+          border: 5px solid black;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          margin-right: 20px;
+          margin-left: 20px;
+          background-color: lightblue;
+        }
+        </style>
+        </head>
+        <body>
+        <img src="https://cdn.shopify.com/s/files/1/0328/4261/products/COMP18_Fair_and_Square_grande.jpg?v=1534189433">
+        </img>
+    <h3>Text with dotted border</h3>
+    <head>
+        <style>
+        p.dotted {border-style: dotted;}
+        
+        </style>
+        </head>
+        <body>
+        
+        <p class="dotted">A dotted border.</p>
+
+
+        <h1>Level 3: Master</h1>
+        <h3>External Style Sheet</h3>
+        <head>
+            <link rel="stylesheet" type="text/css" href="anExternal.css" />
+        </head>
+        <body>
+            <head>
+                <style> 
+                #rcorners1 {
+                  border-radius: 25px;
+                  background: #87ceeb;
+                  padding: 20px; 
+                  width: 200px;
+                  height: 150px;  
+                
+                }
+                </style>
+                </head>
+                <body>
+            <h3>Floating element</h3>
+           <h4>I chose to float this paragraph on the right of the page using the CSS float function. </h4>
+                
+                <h1>Rounded corner </h1>
+                
+                <p id="rcorners1">Rounded corners!</p>
+                
+                </body>
+        
+        </body>
+    
+ 
+</html>
