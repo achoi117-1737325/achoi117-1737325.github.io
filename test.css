@@ -14,6 +14,8 @@ h3{
     font-size: 40px; 
     font-family:"Passion One"; 
     margin-bottom: 0px;
+    letter-spacing: 6px;
+
 }
 
 li{
@@ -96,6 +98,7 @@ li{
     font-weight: bold; 
     font-size: 24px;).
 }
+
 #bow{
     font-size:24px;
   font-family:"Passion One"; 
@@ -108,5 +111,42 @@ li{
     font-weight: bold; 
     font-size: 24px;).
 }
+/*5 new css stuff for Play portion*/
+img {
+    opacity: 0.7;
+  }
+
+#myDIV {
+    width: 300px;
+    height: 200px;
+    background: red ;
+    animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+    50% {background: blue bottom right/50px 50px;}
+  } 
+.alias {cursor: alias;}
+}
+
+/*i changed the letter spacing for heading 3"connect with me online" to 6px*/
+
+p.rtl {
+    text-decoration: line-through;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: mymove 5s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px; background-color: pink;}
+  }
+  /*so for my 5 things, i changed image opacity, animated box changing colors, cursor changing if you hover over the word alias, changed the spacing between the words "connect with me online", and changed the images to animate and move up and donw." */
 }
     
