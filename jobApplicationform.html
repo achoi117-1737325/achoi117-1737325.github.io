@@ -7,15 +7,15 @@
 </head>
 <body>
 
-<h2>Job Application for Ashley</h2>
+<h2>Piano Accompanist Application</h2>
 
-<form name="input" action="http://gclass.alexburner.com/formtest.php" method="post">
-
+<form name="input" action="http://gclass.alexburner.com/formtest.php" method="POST">
+	
 	<h3>Special Message for Applicants</h3>
 
 	<button type="button" onclick="alert('Welcome to the Job application!')">Click Me for a special message!</button>
 	<fieldset>
-		<legend>Account</legend>
+		<legend>Login Information</legend>
 		<div class="field">
 			<label>Email:</label> 
 			<input type="text" name="email">
@@ -108,23 +108,22 @@
 	</fieldset>
 
 	<fieldset>
-		<legend>Availability</legend>
+		<legend>Piano Level Indicator</legend>
 		<div class="field">
-			<label>Are you legally able to be employed in this country?</label> 
+			<label>Are you able to play the Grieg Piano Concerto in A minor</label> 
 			<input type="radio" name="legal" value="yes">Yes
 			<input type="radio" name="legal" value="no">No
 		</div>
 		<div class="field">
-			<label>What type of position are you seeking? (check all that apply)</label>
+			<label>What genres of piano can you play? (check all that apply)</label>
 			<ul>
-				<li><input type="checkbox" name="position_pt" value="parttime">Part time</li>
-				<li><input type="checkbox" name="position_ft" value="fulltime">Full time</li>
-				<li><input type="checkbox" name="position_sl" value="seasonal">Seasonal</li>
-				<li><input type="checkbox" name="position_tp" value="temporary">Temporary</li>
+				<li><input type="checkbox" name="position_pt" value="Jazz">Jazz</li>
+				<li><input type="checkbox" name="position_ft" value="Classical">Classical</li>
+				<li><input type="checkbox" name="position_sl" value="Contemporary">Contemporary</li>
 			</ul>
 		</div>
 		<div class="field">
-			<label>Hours available</label>
+			<label>Days available to accompany</label>
 			<table>
 				<tr>
 					<td></td>
@@ -163,12 +162,12 @@
 	<fieldset>
 		<legend>Personal Statement</legend>
 		<div class="field">
-			<label>Why do you deserve this job?</label><br>
-			<textarea name="deserve" rows="6" cols="60"></textarea>
+			<label>Why do you want this job?</label><br>
+			<textarea name="deserve" rows="6" cols="100"></textarea>
 		</div>
 		<div class="field">
-			<label>Describe a recent project:</label><br>
-			<textarea name="project" rows="6" cols="60"></textarea>
+			<label>Describe your favorite pieces and why:</label><br>
+			<textarea name="project" rows="6" cols="100"></textarea>
 		</div>
 	</fieldset>
 
@@ -176,7 +175,18 @@
 	
 
 	
-	<form name="input" action="http://gclass.alexburner.com/formtest.php" method="post"></form>
+	<form name="input" action="http://gclass.alexburner.com/formtest.php" method="POST"></form>
+	<form action="/action_page.php"
+oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range" id="a" name="a" value="50">
+  100 +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+  <br><br>
+  <input type="submit">
+</form>
 </form>
 
 </body>
