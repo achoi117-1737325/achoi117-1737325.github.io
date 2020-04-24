@@ -3,6 +3,7 @@ h1 {
   color: rgb(177, 63, 63);
   font-family: arial;
   font-size: 300%;
+  font-weight: 10px;
 
 }
 h3 {
@@ -15,5 +16,6 @@ h4 {
 }
 
 body {
-  background-color: pink;
+  background-color: rgb(255, 233, 162);
 }
+
